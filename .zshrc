@@ -41,7 +41,7 @@ alias p='git push'
 alias st='git status'
 alias c='cd; cd l'
 alias oz='positron ~/.zshrc'
-alias ocode='ollama launch opencode'
+alias dev='npm run dev'
 
 q() {
   [[ -z "$*" ]] && return 1
