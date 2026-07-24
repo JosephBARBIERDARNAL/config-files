@@ -1,0 +1,22 @@
+theme = dark:Catppuccin Frappe,light:Catppuccin Latte
+
+keybind = alt+super+arrow_right=next_tab
+keybind = alt+super+arrow_left=previous_tab
+keybind = alt+left=goto_split:left
+keybind = alt+right=goto_split:right
+
+window-height=510
+window-width=1640
+
+font-size = 22
+
+confirm-close-surface = false 
+
+window-inherit-working-directory = false
+
+working-directory = home
+
+background-blur = macos-glass-regular
+
+n = 5
+  
