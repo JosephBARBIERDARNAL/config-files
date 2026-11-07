@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.local/bin:$PATH"
 
 plugins=(
   git
@@ -10,7 +11,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#421173,bold"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bold"
 
 . "$HOME/.local/bin/env"
 
@@ -21,7 +22,7 @@ export PATH="/Users/josephbarbier/verapdf:$PATH"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 _load_nvm() {
-  unset -f nvm node npm npx
+  unset -f nvm node npm
   [ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
 }
 
@@ -57,12 +58,33 @@ q() {
   git commit -m "$*"
 }
 
+# Ask local agent to make a nice commit message
+gac() {
+  git add -A || return 1
+  if git diff --cached --quiet; then
+    echo "Nothing to commit"
+    return 0
+  fi
+
+  local prompt="Generate a concise conventional commit message for the staged changes. Output only the commit message. Do not modify files or run commands."
+  local message
+  message=$(
+    git diff --cached |
+      codex exec --sandbox read-only "$prompt"
+  ) || return 1
+
+  [[ -n "$message" ]] || return 1
+  git commit -m "$message"
+}
+
 
 export PATH="/Users/josephbarbier/verapdf:$PATH"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # rust error verbosity
 export RUST_BACKTRACE=1
+
+export UV_PYTHON=3.14
 
 export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
