@@ -1,4 +1,5 @@
 {
+  "ai.enabled": false,
   "explorer.confirmDelete": false,
   "editor.fontSize": 15,
   "javascript.suggestionActions.enabled": false,
@@ -6,23 +7,21 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.defaultFormatter": "charliermarsh.ruff",
   },
   "git.suggestSmartCommit": false,
-  "workbench.editor.enablePreview": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.confirmDragAndDrop": false,
   "editor.accessibilitySupport": "off",
   "notebook.output.textLineLimit": 200,
   "notebook.output.scrolling": true,
   "workbench.editorAssociations": {
-    "*.png": "imagePreview.previewEditor"
+    "*.png": "imagePreview.previewEditor",
   },
   "editor.formatOnPaste": false,
   "workbench.startupEditor": "none",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.editor.enablePreviewFromQuickOpen": true,
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.env.osx": {},
   "terminal.integrated.inheritEnv": false,
@@ -31,63 +30,63 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "accessibility.signals.lineHasError": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.lineHasFoldedArea": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.lineHasBreakpoint": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.lineHasInlineSuggestion": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.terminalQuickFix": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.onDebugBreak": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.noInlayHints": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.taskCompleted": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.taskFailed": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.terminalCommandFailed": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.notebookCellCompleted": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.notebookCellFailed": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.diffLineDeleted": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.diffLineModified": {
-    "sound": "off"
+    "sound": "off",
   },
   "accessibility.signals.progress": {
-    "sound": "off"
+    "sound": "off",
   },
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.commandPalette.experimental.enableNaturalLanguageSearch": false,
   "workbench.editor.historyBasedLanguageDetection": false,
   "workbench.editor.languageDetectionHints": {
-    "notebookEditors": false
+    "notebookEditors": false,
   },
   "workbench.settings.applyToAllProfiles": ["editor.inlineSuggest.enabled"],
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.hover.enabled": true,
+  "editor.hover.enabled": "on",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestOnTriggerCharacters": true,
   "editor.autoClosingBrackets": "beforeWhitespace",
@@ -102,10 +101,10 @@
   "explorer.confirmPasteNative": false,
   "editor.inlineCompletionsAccessibilityVerbose": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "workbench.editor.wrapTabs": true,
   "files.associations": {
@@ -114,18 +113,18 @@
     "*.qmd": "quarto",
     "*.Rmd": "quarto",
     "*.rmd": "quarto",
-    "renv.lock": "json"
+    "renv.lock": "json",
   },
   "[javascript]": {
     "editor.tabSize": 4,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "editor.linkedEditing": true,
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "security.promptForLocalFileProtocolHandling": false,
   "[r]": {
@@ -133,7 +132,7 @@
     "editor.tabSize": 4,
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",<>/?",
     "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
-    "editor.wordBasedSuggestions": "matchingDocuments"
+    "editor.wordBasedSuggestions": "matchingDocuments",
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "python.interpreter.infoVisibility": "onPythonRelated",
@@ -141,11 +140,10 @@
   "window.zoomLevel": 0.5,
   "positron.r.quietMode": true,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  "positron.variables.followMode": false,
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "positron.viewer.openLocalhostUrls": false,
   "[quarto]": {
@@ -154,86 +152,121 @@
     "editor.quickSuggestions": {
       "comments": "on",
       "other": "on",
-      "strings": "on"
+      "strings": "on",
     },
     "editor.quickSuggestionsDelay": 0,
     "editor.wordBasedSuggestions": "off",
     "editor.suggestOnTriggerCharacters": true,
     "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.unicodeHighlight.invisibleCharacters": false
+    "editor.unicodeHighlight.invisibleCharacters": false,
   },
   "[markdown]": {
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
     "editor.wordWrap": "on",
     "editor.quickSuggestions": {
       "comments": "off",
       "strings": "off",
-      "other": "off"
-    }
+      "other": "off",
+    },
   },
   "markdown.preview.markEditorSelection": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "terminal.integrated.shellIntegration.enabled": false,
   "[typst]": {
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[typst-code]": {
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   },
   "editor.formatOnSave": true,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.iconTheme": "material-icon-theme",
-  "python.defaultInterpreterPath": "/Users/josephbarbier/Desktop/scikit-learn/sklearn-env",
   "redhat.telemetry.enabled": false,
   "editor.mouseWheelZoom": true,
   "positron.r.testing": false,
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  "color-highlight.markRuler": false,
   "git.ignoreRebaseWarning": true,
   "workbench.editor.autoLockGroups": {
     "workbench.editor.chatSession": false,
-    "mainThreadWebview-markdown.preview": true
+    "mainThreadWebview-markdown.preview": false,
   },
   "editor.quickSuggestionsMinimumLength": 1,
   "ty.diagnosticMode": "workspace",
   "css.validate": false,
   "quarto.render.renderOnSave": true,
-  "console.scrollbackSize": 2000,
   "diffEditor.experimental.showMoves": true,
   "editor.suggest.preview": true,
   "dataExplorer.summaryCollapsed": true,
   "editor.wordWrap": "on",
-  "workbench.activityBar.location": "top",
   "[dockercompose]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
-  "workbench.panel.showLabels": false,
   "debug.console.fontSize": 15,
   "console.fontSize": 14,
   "console.fontVariations": true,
   "workbench.editor.empty.hint": "hidden",
-  "ty.inlayHints.callArgumentNames": false,
-  "tinymist.exportPdf": "never",
-  "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "gitlens.plusFeatures.enabled": false,
   "gitlens.virtualRepositories.enabled": false,
-  "gitlens.currentLine.pullRequests.enabled": false,
-  "gitlens.currentLine.scrollable": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
   "gitlens.statusBar.pullRequests.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "tinymist.formatterMode": "typstfmt"
+  "plots.historyPolicy": "never",
+  "plots.defaultSizingPolicy": "intrinsic",
+  "python.languageServer": "None",
+  "tinymist.formatterPrintWidth": 90,
+  "tinymist.lint.enabled": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.changesDiff": "hunk",
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "editor.inlayHints.enabled": "on",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "extensions.allowed": {
+    "posit.shiny": false,
+    "ms-dotnettools": false,
+    "Github": false,
+    "posit.assistant": false,
+    "posit.publisher": false,
+    "ms-python.debugpy": false,
+    "ms-toolsai.vscode-jupyter-slideshow": false,
+    "*": true,
+  },
+  "extensions.ignoreRecommendations": true,
+  "workbench.activityBar.location": "top",
+  "python.pyrefly.typeCheckingMode": "strict",
+  "window.autoDetectColorScheme": true,
+  "tinymist.preview.cursorIndicator": true,
+  "mermaid.vscode.dark": "dark",
+  "mermaid.vscode.light": "default",
+  "mermaidChart.preCommitSync.enabled": false,
+  "workbench.preferredLightColorTheme": "Light 2026",
+  "workbench.editor.enablePreview": false,
+  "notebook.diff.enablePreview": false,
+  "mermaid.vscode.aiExportName": false,
+  "mermaidChart.showGenerateDiagramCodeLens": false,
+  "workbench.preferredDarkColorTheme": "Dark 2026",
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/.venv": true,
+    "**/site": true,
+    "**/__pycache__": true,
+    "**/target": true,
+    "**/.ruff_cache": true,
+    "**/.pytest_cache": true,
+  },
 }
